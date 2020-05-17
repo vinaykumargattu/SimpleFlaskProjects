@@ -9,5 +9,10 @@ def home():
 def about():
     print("This is ABOUT Function")
     return "This is ABOUT"
+@app.route('/contact')
+def contact():
+    print("This is CONTACT Function")
+    return "This is CONTACT"
+
 if __name__=='__main__':
     app.run(debug=True)
